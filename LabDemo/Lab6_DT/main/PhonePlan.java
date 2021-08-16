@@ -2,19 +2,28 @@ package sqa;
 
 public class PhonePlan {
 	
-	private final boolean international, autoRenewal, loyal;
+	static final double INTER_SERVICE = 400;
+	static final double SMS_SERVICE = 100;
+	static final double DISCOUNT = 20;
+	
+	private final boolean international, sms, discount;
 
-    public PhonePlan(boolean international, boolean autoRenewal, boolean loyal) {
+    public PhonePlan(boolean international, boolean sms, boolean discount) {
         this.international = international;
-        this.autoRenewal = autoRenewal;
-        this.loyal = loyal;
+        this.sms = sms;
+        this.discount = discount;
     }
 
-    int pricePerMonth() {
-        boolean isStandard = !(loyal || autoRenewal);
-        return international
-                ? isStandard ? 32 : 30
-                : isStandard ? 15 : 10;
+    double pricePerMonth(double basePrice) {
+        double totalPrice = basePrice;
+        double extracost = 0;
+        
+        extracost = international ? extracost+ INTER_SERVICE : extracost;
+        extracost = sms ? extracost+ SMS_SERVICE : extracost;
+        extracost = discount ? extracost-DISCOUNT : extracost;
+        
+        totalPrice = basePrice + extracost;
+        
+        return totalPrice;
     }
-
 }
