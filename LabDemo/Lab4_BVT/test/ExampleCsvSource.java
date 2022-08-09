@@ -2,11 +2,12 @@ package test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-class TestCSVSourcesExample {
+class ExampleCsvSource {
 
 	@ParameterizedTest
 	@CsvSource({
@@ -17,6 +18,7 @@ class TestCSVSourcesExample {
 	    "Custard apple,",
 	    "Pomelo, 0"
 	})
+	@DisplayName("Use CsvSource to feed inputs")
 	void testWithCsvSource(String thaifruit, int rank) {
 	    assertNotNull(thaifruit);
 	    assertNotEquals(0, rank);
