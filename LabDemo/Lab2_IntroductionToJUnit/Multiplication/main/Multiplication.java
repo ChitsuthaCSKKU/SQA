@@ -1,4 +1,4 @@
-package labdemo.main;
+package main;
 
 public class Multiplication {
 	
