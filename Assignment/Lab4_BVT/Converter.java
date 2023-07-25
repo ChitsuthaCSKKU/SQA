@@ -51,7 +51,9 @@ public class Converter {
 			}
 			else if ((!intflight) && (flightClass == 2)) {
 				return SizeInKilo.S;
-			}						
+			}
+			else
+				return SizeInKilo.XS;
 		}
 		else if (royalty == 1) {
 			if ((intflight) && (flightClass == 3)) {
@@ -69,6 +71,8 @@ public class Converter {
 			else if ((!intflight) && (flightClass == 2)) {
 				return SizeInKilo.L;
 			}
+			else
+				return SizeInKilo.S;
 		}
 		else if (royalty == 2) {
 			if ((intflight) && (flightClass == 3)) {
@@ -86,6 +90,8 @@ public class Converter {
 			else if ((!intflight) && (flightClass == 2)) {
 				return SizeInKilo.L;
 			}
+			else
+				return SizeInKilo.M;
 		}
 		else if (royalty == 3) {
 			if ((intflight) && (flightClass == 3)) {
@@ -103,6 +109,8 @@ public class Converter {
 			else if ((!intflight) && (flightClass == 2)) {
 				return SizeInKilo.M;
 			}
+			else
+				return SizeInKilo.L;
 		}
 		else
 			return SizeInKilo.XS;
