@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="C:\Users\Lenovo_jularat\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre" version="21.0.7"/>
+    <libraryInfo home="C:\Program Files\Java\jre1.8.0_451" version="1.8.0_451">
+        <bootpath>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\lib\resources.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\lib\rt.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\lib\jce.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\Java\jre1.8.0_451\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Users\Lenovo_jularat\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916" version="21.0.7">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
+</libraryInfos>
