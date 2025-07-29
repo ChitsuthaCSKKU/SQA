@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/chitsuthasoomlek/Work/Class/SQA/Lab/Lab7_Whitebox/Lab7/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+984592965.index
+350726636.index
