@@ -1,4 +1,4 @@
-package Top;
+package sqa.TopTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
