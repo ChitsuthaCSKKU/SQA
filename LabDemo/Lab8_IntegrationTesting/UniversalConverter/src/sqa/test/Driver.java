@@ -19,7 +19,7 @@ public class Driver {
 	
 	public static void main(String[] args)
 	{
-		double originalValue = 10.0;
+		double originalValue = 12.0;
 		double convertedValue = 0.0;	//results of the universal converter
 		String selectedChoice = "Distance";
 		String from = "kilometer";
