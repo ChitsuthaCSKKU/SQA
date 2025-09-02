@@ -16,7 +16,7 @@ class FavoriteMovieTest {
 		MovieService movieService = new MovieServiceStub();
 		FavoriteMovie favoriteMovie = new FavoriteMovie(movieService);
 		
-		List<String> movielist = favoriteMovie.getUser("Isaac", "datenight");
+		List<String> movielist = favoriteMovie.getUser("Isaac","datenight");
 		
 		assertEquals(5, movielist.size());
 	}

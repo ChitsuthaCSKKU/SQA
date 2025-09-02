@@ -14,7 +14,7 @@ public class FavoriteMovie {
 		this.movieService = movieService;
 	}
 
-	public List<String> getUser(String username, String playlistName) {
+	public List<String> getUser(String username,String playlistName) {
 		List<String> movielist = new ArrayList<String>();
 		List<String> playlistMovie = movieService.getMovieUser(username);
 		
@@ -27,6 +27,7 @@ public class FavoriteMovie {
 		return movielist;
 		
 	}
+	
 	
 	public boolean isInPlaylist(String movie, String playlistName) {
 		if(playlistName.equalsIgnoreCase("datenight")) {
