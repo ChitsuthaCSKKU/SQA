@@ -1,12 +1,12 @@
 package kku.sqa.lab.service;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 import java.util.Arrays;
 import java.util.List;
+
+import org.junit.jupiter.api.Test;
 
 import kku.sqa.lab.api.MovieService;
 
