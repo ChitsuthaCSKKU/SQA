@@ -1,0 +1,8 @@
+package kku.sqa.lab.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BookCatalogueImpl {
+
+}

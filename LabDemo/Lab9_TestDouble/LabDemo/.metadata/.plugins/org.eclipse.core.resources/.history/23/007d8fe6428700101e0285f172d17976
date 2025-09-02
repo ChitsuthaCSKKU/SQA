@@ -1,0 +1,5 @@
+package kku.sqa.lab.api;
+
+public interface BookCatalogueService {
+
+}
