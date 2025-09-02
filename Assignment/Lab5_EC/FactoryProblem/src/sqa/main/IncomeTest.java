@@ -44,7 +44,7 @@ class IncomeTest {
         // Multiple invalids
         "999, 299, 499, INVALID",     // all below min
         "5001, 801, 3001, INVALID",   // all above max
-        "0, 0, 0, INVALID",           // all zero
+        "0, 0, 0, INVALID"           // all zero
     })
     void testCalculateIncome(int num_impeller, int num_motor, int num_cover, String expectedResult) {
         Income income = new Income();
