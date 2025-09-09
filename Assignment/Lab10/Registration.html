@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Registration</title>
+</head>
+
+<body>
+	<div>
+		<h1>Event Registration</h1>
+		<form name="myform" onsubmit="return validation();" action="Success.html">
+			<input type="text" id="firstname" name="firstname" placeholder="First Name"/>
+			<input type="text" id="lastname" name="lastname" placeholder="Last Name"/>
+			<input type="text" id="organization" name="organization" placeholder="Organization"/>
+			<input type="text" id="email" name="email" placeholder="Email"/>
+			<input type="text" id="phone" name="phone" placeholder="Phone No."/>
+			<input type="submit" id="registerButton" value="Register">
+			<p id="errors"></p>
+		</form>
+	</div>
+</body>
+
+<script type="text/javascript">
+	function validation(){ 
+		var firstname = document.myform.firstname.value;
+		var lastname = document.myform.lastname.value;
+		var email = document.myform.email.value;
+		var phone = document.myform.phone.value;
+		
+		if (firstname == "" && lastname == "") {
+     	document.getElementById('errors').innerHTML="*Please enter your name!!";
+     	return false;
+ 		} else if (firstname == "") {
+ 			document.getElementById('errors').innerHTML="*Please enter your first name!!";
+     	return false;
+		} else if (lastname == "") {
+ 			document.getElementById('errors').innerHTML="*Please enter your last name!!";
+     	return false;
+ 		} else if (email == "") {
+ 			document.getElementById('errors').innerHTML="*Please enter your email!!";
+ 			return false;
+ 		} else if (phone == "") {
+ 			document.getElementById('errors').innerHTML="*Please enter your phone number!!";
+ 			return false;
+ 		}
+		else if (phone){
+			/* is correct
+			XXX-XXX-XXXX
+			XXX.XXX.XXXX
+			XXX XXX XXXX 
+			*/
+			var pattern  = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+			if (phone.match(pattern)) {
+			     return true;
+		    } else {
+				document.getElementById('errors').innerHTML="Please enter a valid phone number!!";
+				return false;
+		    }
+	    }
+}		
+</script>
+<style>
+body {
+  font-family: Arial;
+	background: #f2f2f2
+}
+#errors {
+	text-align: right;
+}
+h1 {
+	color: #00BCD4;
+  font-weight: lighter;
+	font-size: 28px;
+  margin-bottom: 0;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #00BCD4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #607d8b;
+}
+
+div {
+		margin: 2em auto;
+    width: 300px;
+		border-radius: 0 0 2px 2px;    
+		background-color: #ffffff;
+    padding: 18px 50px 40px;
+}
+</style>
+
+</html>
