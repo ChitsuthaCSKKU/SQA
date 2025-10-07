@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TVPlanTestLimited" project="TVPackage" tests="24" started="24" failures="9" errors="0" ignored="0">
+  <testsuite name="sqa.main.TVPlanTestLimited" time="0.0" displayname="TVPlanTestLimited" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]">
+    <testsuite name="testLimitedEntryDecisionTable(sqa.main.TVPlanTestLimited)" time="0.0" displayname="testLimitedEntryDecisionTable(String, String, String, boolean, boolean, boolean, int)" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]">
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[1] Standard, false, false, false, false, false, 150" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#1]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[2] Standard, false, false, false, false, true, 100" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#2]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[3] Standard, false, false, false, true, false, 250" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#3]">
+        <failure>
+          <expected>250.0</expected>
+          <actual>150.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;250.0&gt; but was: &lt;150.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[4] Standard, false, false, false, true, true, 200" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#4]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[5] Standard, false, false, true, false, false, 250" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#5]">
+        <failure>
+          <expected>250.0</expected>
+          <actual>150.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;250.0&gt; but was: &lt;150.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[6] Standard, false, false, true, false, true, 200" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#6]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.002" dynamicTest="true" displayname="[7] Standard, false, false, true, true, false, 350" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#7]">
+        <failure>
+          <expected>350.0</expected>
+          <actual>150.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;350.0&gt; but was: &lt;150.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.001" dynamicTest="true" displayname="[8] Standard, false, false, true, true, true, 300" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#8]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[9] false, Premium, false, false, false, false, 350" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#9]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[10] false, Premium, false, false, false, true, 300" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#10]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.002" dynamicTest="true" displayname="[11] false, Premium, false, false, true, false, 450" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#11]">
+        <failure>
+          <expected>450.0</expected>
+          <actual>350.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;450.0&gt; but was: &lt;350.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[12] false, Premium, false, false, true, true, 400" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#12]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.002" dynamicTest="true" displayname="[13] false, Premium, false, true, false, false, 450" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#13]">
+        <failure>
+          <expected>450.0</expected>
+          <actual>350.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;450.0&gt; but was: &lt;350.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.002" dynamicTest="true" displayname="[14] false, Premium, false, true, false, true, 400" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#14]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.001" dynamicTest="true" displayname="[15] false, Premium, false, true, true, false, 550" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#15]">
+        <failure>
+          <expected>550.0</expected>
+          <actual>350.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;550.0&gt; but was: &lt;350.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[16] false, Premium, false, true, true, true, 500" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#16]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[17] false, false, Family, false, false, false, 450" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#17]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[18] false, false, Family, false, false, true, 400" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#18]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.001" dynamicTest="true" displayname="[19] false, false, Family, false, true, false, 550" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#19]">
+        <failure>
+          <expected>550.0</expected>
+          <actual>450.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;550.0&gt; but was: &lt;450.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.0" dynamicTest="true" displayname="[20] false, false, Family, false, true, true, 500" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#20]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.001" dynamicTest="true" displayname="[21] false, false, Family, true, false, false, 550" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#21]">
+        <failure>
+          <expected>550.0</expected>
+          <actual>450.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;550.0&gt; but was: &lt;450.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.001" dynamicTest="true" displayname="[22] false, false, Family, true, false, true, 500" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#22]"/>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.001" dynamicTest="true" displayname="[23] false, false, Family, true, true, false, 650" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#23]">
+        <failure>
+          <expected>650.0</expected>
+          <actual>450.0</actual>
+          org.opentest4j.AssertionFailedError: expected: &lt;650.0&gt; but was: &lt;450.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at sqa.main.TVPlanTestLimited.testLimitedEntryDecisionTable(TVPlanTestLimited.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="testLimitedEntryDecisionTable" classname="sqa.main.TVPlanTestLimited" time="0.001" dynamicTest="true" displayname="[24] false, false, Family, true, true, true, 600" parameters="java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,int" uniqueid="[engine:junit-jupiter]/[class:sqa.main.TVPlanTestLimited]/[test-template:testLimitedEntryDecisionTable(java.lang.String, java.lang.String, java.lang.String, boolean, boolean, boolean, int)]/[test-template-invocation:#24]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

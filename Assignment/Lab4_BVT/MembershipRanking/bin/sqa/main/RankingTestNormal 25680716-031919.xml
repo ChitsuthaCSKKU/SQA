@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RankingTestNormal" project="MembershipRanking" tests="13" started="13" failures="8" errors="0" ignored="0">
+  <testsuite name="sqa.main.RankingTestNormal" time="0.003" displayname="RankingTestNormal" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]">
+    <testcase name="PointCollected_Max" classname="sqa.main.RankingTestNormal" time="0.0" displayname="PointCollected_Max()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:PointCollected_Max()]">
+      <failure>
+        <expected>Platinum</expected>
+        <actual>Silver</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Platinum&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at sqa.main.RankingTestNormal.PointCollected_Max(RankingTestNormal.java:93)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="PointCollected_Min" classname="sqa.main.RankingTestNormal" time="0.0" displayname="PointCollected_Min()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:PointCollected_Min()]"/>
+    <testcase name="All_Nominal" classname="sqa.main.RankingTestNormal" time="0.0" displayname="All_Nominal()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:All_Nominal()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at sqa.main.RankingTestNormal.All_Nominal(RankingTestNormal.java:101)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="PointCollected_MaxMinus" classname="sqa.main.RankingTestNormal" time="0.0" displayname="PointCollected_MaxMinus()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:PointCollected_MaxMinus()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at sqa.main.RankingTestNormal.PointCollected_MaxMinus(RankingTestNormal.java:86)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="PurchaseTotal_Max" classname="sqa.main.RankingTestNormal" time="0.0" displayname="PurchaseTotal_Max()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:PurchaseTotal_Max()]">
+      <failure>
+        <expected>Platinum</expected>
+        <actual>Silver</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Platinum&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at sqa.main.RankingTestNormal.PurchaseTotal_Max(RankingTestNormal.java:35)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="PurchaseTotal_Min" classname="sqa.main.RankingTestNormal" time="0.0" displayname="PurchaseTotal_Min()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:PurchaseTotal_Min()]"/>
+    <testcase name="PointCollected_MinPlus" classname="sqa.main.RankingTestNormal" time="0.0" displayname="PointCollected_MinPlus()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:PointCollected_MinPlus()]"/>
+    <testcase name="Frequency_MaxMinus" classname="sqa.main.RankingTestNormal" time="0.0" displayname="Frequency_MaxMinus()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:Frequency_MaxMinus()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at sqa.main.RankingTestNormal.Frequency_MaxMinus(RankingTestNormal.java:57)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="PurchaseTotal_MaxMinus" classname="sqa.main.RankingTestNormal" time="0.0" displayname="PurchaseTotal_MaxMinus()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:PurchaseTotal_MaxMinus()]">
+      <failure>
+        <expected>Gold</expected>
+        <actual>Silver</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Gold&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at sqa.main.RankingTestNormal.PurchaseTotal_MaxMinus(RankingTestNormal.java:28)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="Frequency_Max" classname="sqa.main.RankingTestNormal" time="0.0" displayname="Frequency_Max()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:Frequency_Max()]">
+      <failure>
+        <expected>Platinum</expected>
+        <actual>Silver</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Platinum&gt; but was: &lt;Silver&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at sqa.main.RankingTestNormal.Frequency_Max(RankingTestNormal.java:64)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="Frequency_Min" classname="sqa.main.RankingTestNormal" time="0.002" displayname="Frequency_Min()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:Frequency_Min()]">
+      <failure>
+        <expected>Silver</expected>
+        <actual>Standard</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Silver&gt; but was: &lt;Standard&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at sqa.main.RankingTestNormal.Frequency_Min(RankingTestNormal.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="Frequency_MinPlus" classname="sqa.main.RankingTestNormal" time="0.0" displayname="Frequency_MinPlus()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:Frequency_MinPlus()]"/>
+    <testcase name="PurchaseTotal_MinPlus" classname="sqa.main.RankingTestNormal" time="0.0" displayname="PurchaseTotal_MinPlus()" uniqueid="[engine:junit-jupiter]/[class:sqa.main.RankingTestNormal]/[method:PurchaseTotal_MinPlus()]"/>
+  </testsuite>
+</testrun>
