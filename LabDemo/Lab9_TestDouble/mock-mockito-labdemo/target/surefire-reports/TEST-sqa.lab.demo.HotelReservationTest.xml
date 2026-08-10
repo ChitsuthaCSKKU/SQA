@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="sqa.lab.demo.HotelReservationTest" time="0.228" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo/target/test-classes:/Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo/target/classes:/Users/chitsuthasoomlek/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.14.4/junit-jupiter-engine-5.14.4.jar:/Users/chitsuthasoomlek/.m2/repository/org/junit/platform/junit-platform-engine/1.14.4/junit-platform-engine-1.14.4.jar:/Users/chitsuthasoomlek/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chitsuthasoomlek/.m2/repository/org/junit/platform/junit-platform-commons/1.14.4/junit-platform-commons-1.14.4.jar:/Users/chitsuthasoomlek/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.14.4/junit-jupiter-api-5.14.4.jar:/Users/chitsuthasoomlek/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/chitsuthasoomlek/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.0/mockito-junit-jupiter-5.14.0.jar:/Users/chitsuthasoomlek/.m2/repository/org/mockito/mockito-core/5.14.0/mockito-core-5.14.0.jar:/Users/chitsuthasoomlek/.m2/repository/net/bytebuddy/byte-buddy/1.15.2/byte-buddy-1.15.2.jar:/Users/chitsuthasoomlek/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.2/byte-buddy-agent-1.15.2.jar:/Users/chitsuthasoomlek/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TH"/>
+    <property name="sun.boot.library.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.7.v20250502-0916/jre/lib"/>
+    <property name="sun.java.command" value="/Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo/target/surefire/surefirebooter-20260810234420203_3.jar /Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo/target/surefire 2026-08-10T23-44-20_175-jvmRun1 surefire-20260810234420203_1tmp surefire_0-20260810234420203_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo/target/test-classes:/Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo/target/classes:/Users/chitsuthasoomlek/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.14.4/junit-jupiter-engine-5.14.4.jar:/Users/chitsuthasoomlek/.m2/repository/org/junit/platform/junit-platform-engine/1.14.4/junit-platform-engine-1.14.4.jar:/Users/chitsuthasoomlek/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chitsuthasoomlek/.m2/repository/org/junit/platform/junit-platform-commons/1.14.4/junit-platform-commons-1.14.4.jar:/Users/chitsuthasoomlek/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.14.4/junit-jupiter-api-5.14.4.jar:/Users/chitsuthasoomlek/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/chitsuthasoomlek/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.0/mockito-junit-jupiter-5.14.0.jar:/Users/chitsuthasoomlek/.m2/repository/org/mockito/mockito-core/5.14.0/mockito-core-5.14.0.jar:/Users/chitsuthasoomlek/.m2/repository/net/bytebuddy/byte-buddy/1.15.2/byte-buddy-1.15.2.jar:/Users/chitsuthasoomlek/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.2/byte-buddy-agent-1.15.2.jar:/Users/chitsuthasoomlek/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/chitsuthasoomlek"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.7.v20250502-0916/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo/target/surefire/surefirebooter-20260810234420203_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="chitsuthasoomlek"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="/Users/chitsuthasoomlek/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/rz/n98q4dvn6098wrnp4std_r200000gn/T/"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="/Users/chitsuthasoomlek/Work/Class/SQA/2026/Lab/Lab9_TestDouble/LabDemo/mock-mockito-labdemo"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/chitsuthasoomlek/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="checkAvailableRoomsFalse" classname="sqa.lab.demo.HotelReservationTest" time="0.216"/>
+  <testcase name="checkAvailableRoomsTrue" classname="sqa.lab.demo.HotelReservationTest" time="0.001"/>
+</testsuite>

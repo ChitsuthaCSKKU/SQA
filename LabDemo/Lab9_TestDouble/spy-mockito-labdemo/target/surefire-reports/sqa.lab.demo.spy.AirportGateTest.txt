@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: sqa.lab.demo.spy.AirportGateTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.236 s <<< FAILURE! -- in sqa.lab.demo.spy.AirportGateTest
+sqa.lab.demo.spy.AirportGateTest.passengerEntryReturn -- Time elapsed: 0.224 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "sqa.lab.demo.service.EmailService.notifyPassenger(int)" because "<local3>.emailService" is null
+	at sqa.lab.demo.service.AirportGate.passengerEntry(AirportGate.java:21)
+	at sqa.lab.demo.service.AirportGate.passengerEntry(AirportGate.java:19)
+	at sqa.lab.demo.spy.AirportGateTest.passengerEntryReturn(AirportGateTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+sqa.lab.demo.spy.AirportGateTest.passengerEntry -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "sqa.lab.demo.service.EmailService.notifyPassenger(int)" because "<local3>.emailService" is null
+	at sqa.lab.demo.service.AirportGate.passengerEntry(AirportGate.java:21)
+	at sqa.lab.demo.service.AirportGate.passengerEntry(AirportGate.java:19)
+	at sqa.lab.demo.spy.AirportGateTest.passengerEntry(AirportGateTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
